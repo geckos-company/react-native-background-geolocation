@@ -5,10 +5,10 @@
   "main": "./index.js",
   "types": "./index.d.ts",
   "scripts": {
-    "postinstall": "project_dir=$PWD; cd ./node_modules/@darron1217/react-native-background-geolocation; git clone https://github.com/geckos-company/background-geolocation-android.git android/common; git clone https://github.com/mauron85/background-geolocation-ios.git ios/common;", 
     "link": "@darron1217/react-native-background-geolocation/scripts/postlink.js",
     "unlink": "@darron1217/react-native-background-geolocation/scripts/postunlink.js",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "project_dir=$PWD; cd ./node_modules/@darron1217/react-native-background-geolocation; git clone https://github.com/geckos-company/background-geolocation-android.git android/common; git clone https://github.com/mauron85/background-geolocation-ios.git ios/common;"
   },
   "repository": {
     "type": "git",
