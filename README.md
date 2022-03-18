@@ -7,7 +7,7 @@
 ## Installation
 
 ```
-yarn add @darron1217/react-native-background-geolocation
+yarn add https://github.com/geckos-company/react-native-background-geolocation.git
 ```
 
 ### Automatic setup
