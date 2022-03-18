@@ -3,4 +3,5 @@
 	url = https://github.com/mauron85/background-geolocation-ios.git
 [submodule "android-common"]
 	path = android/common
+	branch = develop
 	url = https://github.com/geckos-company/background-geolocation-android.git
